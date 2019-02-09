@@ -59,5 +59,9 @@ module.exports = {
         })
       }
     }
+  },
+
+  router: {
+    base: process.env.NODE_ENV === 'production' ? '/nuxt-sample-static-site/' : '/'
   }
 }
