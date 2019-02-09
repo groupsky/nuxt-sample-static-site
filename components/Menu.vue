@@ -1,6 +1,5 @@
 <template>
   <fragment>
-    <div>here</div>
     <nuxt-link
       v-for="item in items"
       :key="item.name"
