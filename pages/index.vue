@@ -24,21 +24,24 @@
           GitHub
         </a>
       </div>
+      <widget />
     </div>
   </section>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Widget from '~/components/Widget.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Widget
   }
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;

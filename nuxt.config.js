@@ -1,7 +1,7 @@
 const pkg = require('./package')
 
 module.exports = {
-  mode: 'spa',
+  // mode: 'spa',
 
   /*
   ** Headers of the page
@@ -29,15 +29,16 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [
+    '~/plugins/vue-fragment'
+  ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
-    ,
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    // 'bootstrap-vue/nuxt'
   ],
 
   /*
